@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\oui.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\oui.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Utils\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PacketDotNet" Version="1.4.8" />
+    <PackageReference Include="SharpPcap" Version="6.3.1" />
+    <PackageReference Include="Lextm.SharpSnmpLib" Version="10.0.0" />
+    <!-- Entfernen Sie das inkompatible Paket snmpsharpnet, da es nicht für .NET 8.0 verfügbar ist -->
+    <!-- <PackageReference Include="snmpsharpnet" Version="0.9.7" /> -->
+  </ItemGroup>
+
+</Project>

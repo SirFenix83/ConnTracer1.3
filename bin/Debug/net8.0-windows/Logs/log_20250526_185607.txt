@@ -1,0 +1,7 @@
+﻿=== Bandwidth Overview ===
+Analyzer
+	Fenix	20 Kbps
+Monitor
+	Fenix	7 Kbps
+
+=== Device Scanner ===

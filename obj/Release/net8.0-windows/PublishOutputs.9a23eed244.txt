@@ -1,0 +1,6 @@
+E:\CT-Portable 1.2\Resources\oui.txt
+E:\CT-Portable 1.2\ConnTracer.exe
+E:\CT-Portable 1.2\ConnTracer.dll
+E:\CT-Portable 1.2\ConnTracer.deps.json
+E:\CT-Portable 1.2\ConnTracer.runtimeconfig.json
+E:\CT-Portable 1.2\ConnTracer.pdb
